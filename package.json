@@ -1,0 +1,25 @@
+{
+  "name": "@shiplog/cli",
+  "version": "1.0.0",
+  "description": "ShipLog CLI — manage changelogs from your terminal",
+  "bin": {
+    "shiplog": "./bin/shiplog.js"
+  },
+  "type": "commonjs",
+  "scripts": {
+    "test": "node bin/shiplog.js --help"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShipLog-AI/ShipLog-CLI.git"
+  },
+  "keywords": ["changelog", "shiplog", "cli", "release-notes"],
+  "author": "ShipLog AI",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^13.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
